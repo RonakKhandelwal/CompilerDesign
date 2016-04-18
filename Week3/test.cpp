@@ -71,14 +71,14 @@ int main(){
 						while(temp2<end && *temp2 != ';'){
 							//cout<<*temp2;
 							if(*temp2 == ','){
-								cout<<"<"<<dtype<<">";
+								cout<<"<"<<dtype<<"> ";
 								wtype(string(temptok,temp2));
 								//cout<<"<"<<dtype<<">"<<"-<"<<string(temptok,temp2)<<">-";
 								temptok=temp2;
 							}
 							temp2++;
 						}
-						//cout<<"<"<<dtype<<">";
+						cout<<"<"<<dtype<<"> ";
 						wtype(string(temptok,temp2));
 								//cout<<"<"<<dtype<<">"<<"-<"<<string(temptok,temp2)<<">-";
 						break;
